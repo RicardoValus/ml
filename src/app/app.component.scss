@@ -1,0 +1,119 @@
+// @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:host {
+
+    >header {
+        >mat-toolbar {
+            >mat-toolbar-row {
+                display: flex;
+                justify-content: center;
+                background: linear-gradient(to right, #1E88E5, #8E44AD);
+
+                // >h1 {
+                //     font-family: 'Quicksand', sans-serif;
+                // }
+
+                >button {
+                    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+                    color: #E53935;
+                }
+
+            }
+        }
+    }
+
+    >main {
+        background-color: #212121;
+        height: 100%;
+        padding: 0 0.625rem 0 0.625rem;
+        max-height: 100vh;
+        overflow-y: auto;
+        padding: 30px;
+        text-align: center;
+
+        >h3 {
+
+
+            >span {
+                >b {
+                    color: #E53935;
+                }
+            }
+        }
+
+
+        >div {
+
+            display: flex;
+            align-items: center;
+
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            height: auto;
+
+
+
+
+            >div {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+
+                >div {
+                    min-width: 100%;
+                    transition: transform 0.5s ease-in-out;
+
+                    display: flex;
+                    align-items: center;
+
+                    justify-content: center;
+
+                    >img {
+                        width: 100%;
+                        height: auto;
+                        border-radius: 1rem;
+                        max-width: 400px;
+                    }
+                }
+            }
+
+            >button {
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            button.prev {
+                left: 10px;
+            }
+
+            button.next {
+                right: 10px;
+            }
+        }
+
+
+        >div {
+            >mat-card {
+                margin: 10px;
+                border-radius: 1rem;
+                min-width: 135px;
+            }
+        }
+    }
+
+    // h3 {
+    //     font-family: 'Quicksand', sans-serif;
+    // }
+
+    // h2 {
+    //     font-family: 'Dancing Script', cursive;
+    // }
+}
+
+// degrade: background: linear-gradient(to right, #D32F2F, #FF9800);
+
+// colocar ... ao quebrar horizontalmente: 
+// overflow: hidden;
+// text-overflow: ellipsis;
+// white-space: nowrap;
+// width: 20.3125rem;
